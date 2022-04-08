@@ -16,7 +16,7 @@ This project (Fylo data storage component), designed to make users able to view 
 
 ### Screenshot
 
-<img src="fylo.PNG">
+<img src="fylo.png">
 
 ### Links
 
