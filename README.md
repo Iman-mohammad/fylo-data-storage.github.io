@@ -20,9 +20,9 @@ This project (Fylo data storage component), designed to make users able to view 
 
 ### Links
 
-- [Solution URL](https://github.com/Iman-mohammad/fylo-data-storage.github.io)
-- [Live Site URL](https://iman-mohammad.github.io/fylo-data-storage.github.io/)
-- 
+- [Solution URL : Fylo-GitHub](https://github.com/Iman-mohammad/fylo-data-storage.github.io)
+- [Live Site URL : Fylo-data-storage](https://iman-mohammad.github.io/fylo-data-storage.github.io/)
+
 ### Built with
 
 - Semantic HTML5 markup
