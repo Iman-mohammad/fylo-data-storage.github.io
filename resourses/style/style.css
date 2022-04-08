@@ -9,7 +9,7 @@
 
 body{
     background-image: url('../images/bg-desktop.png');
-    background-position:100% 120%;
+    background-position:bottom;
     background-repeat: no-repeat;
     background-size: 100%;
     background-color:hsl(229, 57%, 11%);
