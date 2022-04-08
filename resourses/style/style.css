@@ -58,6 +58,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    box-shadow: 0 0 15px hsl(229, 57%, 11%);
    
 }
 
@@ -109,6 +110,7 @@ main{
     border-radius: 10px;
     padding: 1.5rem 2rem;
     position: relative;
+    box-shadow: 0 0 15px hsl(229, 57%, 11%);
 }
 
 .storge{
