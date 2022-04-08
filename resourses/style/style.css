@@ -24,8 +24,18 @@ p{
     letter-spacing: .5px;
 }
 
+.gray{
+    color: hsl(243, 100%, 93%);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 5%;
+   
+}
+
+
 /*main style*/
 main{
+position: fixed;
  width: 75%;
  height: 200px;
  display: flex;
@@ -96,6 +106,7 @@ main{
     height: 125px;
     border-radius: 10px;
     padding: 1rem 2rem;
+    position: relative;
 }
 
 .storge{
@@ -126,6 +137,38 @@ main{
 span{
     font-weight: 700;
 }
+
+.extra{
+    position: absolute;
+    top: -40%;
+    left: 55%;
+    width:40%;
+    height: 55%;
+    background-color: white;
+    border-radius: 13px;
+    z-index: 10;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    border-bottom-right-radius:0 ;
+}
+
+.extra::after{
+    content: ' ';
+    position: absolute;
+    top: 65%;
+    right: 0%;
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 50px solid rgb(255, 255, 255);
+    border-bottom-right-radius:5px ; 
+}
+
+
 @media screen and (max-width:800px) {
     main{
         width: 95%;
@@ -165,6 +208,21 @@ span{
     }
     p{
         text-align: center;
+    }
+
+    .extra{
+        
+        top: 70%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width:50%;
+        height: 60%;
+        border-bottom-right-radius:13px ;
+    }
+    
+    .extra::after{
+        display: none;
     }
     
 }
