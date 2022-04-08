@@ -1,0 +1,170 @@
+/*universal style*/
+*{
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 100%, 93%);
+}
+
+body{
+    background-image: url('../images/bg-desktop.png');
+    background-position:100% 120%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:hsl(229, 57%, 11%);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+}
+/*how to make background fixed */ 
+
+p{
+    letter-spacing: .5px;
+}
+
+/*main style*/
+main{
+ width: 75%;
+ height: 200px;
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+ padding-bottom: 1.5rem;
+}
+
+/*left side style*/
+.left{
+    width: 35%;
+    margin-right: 5%;
+    background-color: hsl(228, 56%, 26%);
+    border-top-right-radius: 85px  !important;
+    border-radius: 10px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.logo{
+    margin-bottom: 5%;
+    height: 30%;
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.logo img{
+    margin: 0;
+    padding: 0;
+}
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 30%;
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.icons figure{
+    background-color:hsl(229, 57%, 11%) ;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2.5%;
+    border-radius: 5px;
+}
+
+.icons figure:first-child{
+    margin-left: 0;
+}
+
+
+/*right style*/
+.right{
+    width: 58%;
+    background-color: hsl(228, 56%, 26%);
+    height: 125px;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+
+.storge{
+    width: 100%;
+    height: 15px;
+    background-color:hsl(229, 57%, 11%) ;
+    border-radius: 20px;
+    margin-bottom: 2.2%;
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+    
+}
+
+.pink{
+    
+    width: 85%;
+    height: 11px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+    border-radius: 20px;
+    content: ' ';
+}
+
+.stroge-value{
+    display: flex;
+}
+
+span{
+    font-weight: 700;
+}
+@media screen and (max-width:800px) {
+    main{
+        width: 95%;
+    }
+    
+    .left{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body{
+    background-image: url('../images/bg-mobile.png');
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        justify-content: center;
+    }
+
+    .left{
+        width: 95%;
+        height: 185px;
+        margin-bottom: 10%;
+        margin-right: 0;
+        
+    }
+
+    .right{
+        width: 95%;
+        height: 150px;
+    }
+    p{
+        text-align: center;
+    }
+    
+}
