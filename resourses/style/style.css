@@ -23,8 +23,9 @@ body{
 }
 
 
-p{
+h1{
     letter-spacing: .5px;
+    font-size: 14px;
 }
 
 .gray{
@@ -205,7 +206,7 @@ span{
         height: 170px;
         padding: 2rem;
     }
-    p{
+    h1{
         text-align: center;
     }
 
