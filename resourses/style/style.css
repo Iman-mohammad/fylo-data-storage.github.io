@@ -4,6 +4,7 @@
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
     color: hsl(243, 100%, 93%);
+   
 }
 
 body{
@@ -17,8 +18,10 @@ body{
     align-items: center;
     justify-content: center;
     max-width: 1440px;
+    padding: 10% 2%;
+    margin: 0;
 }
-/*how to make background fixed */ 
+
 
 p{
     letter-spacing: .5px;
@@ -28,16 +31,12 @@ p{
     color: hsl(243, 100%, 93%);
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-left: 5%;
-   
+    margin-left: 5%;   
 }
-
 
 /*main style*/
 main{
-position: fixed;
  width: 75%;
- height: 200px;
  display: flex;
  align-items: flex-end;
  justify-content: center;
